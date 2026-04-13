@@ -1,0 +1,139 @@
+# VSCode
+**/.vscode/
+**/.cache/
+**/.cmake/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# CMake
+**/build/
+**/build-ja/
+CMakeLists.txt.user
+compile_commands.json
+CMakeUserPresets.json
+
+# logs
+*.log
+*.logs
+*.LOG
+*.LOGS
+
+# Backup files
+*.bak
+*.BAK
+*~
+*.swp
+*.swo
+*.orig
+*.rej
+*.tmp
+*.temp
+
+# Package manager
+vcpkg_installed/
+
+# Downloaded dependencies
+**/download/
+
+# Python related (including VSCode extensions)
+**/__pycache__/
+**/*.py[cod]
+**/*.ipynb_checkpoints/
+
+# R
+.RData
+.Rhistory
+
+# Object files and binaries
+*.dSYM/
+*.o
+*.a
+*.so
+*.dylib
+*.out
+*.dll
+*.exe
+core
+core.*
+
+# Coverage and profiling
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+perf.data
+perf.data.old
+
+# Xcode (macOS environment)
+*.xcuserstate
+*.xcworkspace
+*.xcodeproj
+
+# Other IDEs
+.idea/
+.ccls-cache/
+
+# Doxygen output
+doxydocs/
+
+# ctags/tags related
+tags
+TAGS
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+*.keystore
+*.jks
+.env
+.env.*
+credentials.json
+id_rsa
+id_ed25519
+id_ecdsa
+.aws/
+gcloud/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Claude Code MCP
+.mcp.json
+
+# Misc
+.markdownlint.json
+
+# Serena
+.serena/
+
+# Project-specific
+build-link-test/
+output/
+design-docs/900*
+analysis/
